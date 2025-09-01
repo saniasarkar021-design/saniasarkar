@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+
+  }
+  .absolute
+  {
+    position: absolute;
+    padding-top: 0px;
+  }
+  .clr
+  {
+    background-color: rgb(251, 249, 249);
+  }
+.width
+{
+    width: 80px;
+}
+.bg-page
+{
+    top:0%;
+
+}
+.heading
+{
+   font-size: 40px;
+   font-family:fantasy;
+   background-color: rgb(40, 124, 221);
+   color: white;
+}
+.heading2
+{
+   font-size: 32px;
+   font-family:sans-serif;
+   color: black;
+}
+.text-format
+{
+  font-size: 40px;
+  text-shadow: 5px 5px 5px gray ;
+  color:darkslategrey
+}
+.nav-link.format
+{
+font-size: 165%;
+text-shadow: 5px 5px 5px black ;
+padding-top: 0%;
+}
+.panel-bg
+{
+    
+    font-size: 50%;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.text-blue
+{
+    color: rgb(6, 35, 71);
+    font-family:serif;
+}
+h4
+{
+  font-size: 20px;
+    color:rgb(104, 101, 101);
+font-family:serif;
+display: inline-block;
+}
+h5
+{
+  font-size: 50%;
+    color:rgb(104, 101, 101);
+font-family:serif;
+display: inline-block;
+}
+.text-red
+{
+  color: rgb(188, 33, 46);
+}
+.text-center
+{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.image
+{
+    height: 80%;
+    width: 100%;
+    position: relative;
+  opacity: 0.9;
+}
+
+.navber
+{
+  background-color: transparent;
+}
+.nav-link
+{
+  color: white;
+}
+.navbar-brand
+{
+  font-size: 250%;
+}
+
+.text-size
+{
+  font-size:x-large;
+ margin-left: 50px;
+ margin-right: 30px;
+}
+.big-text
+{
+    font-size: 45px;
+}
+
+.bg_color
+{
+background-color: rgb(216, 229, 245);
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    border-radius: 15px;
+}
+.container2
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(242, 217, 248);
+    border-radius: 15px;
+}
+
+.card
+{
+    background-color:white;
+    margin: 20px;
+    width: 290px;
+    height: 350px;
+    border-radius: 15px;
+    
+}
+
+.imgs
+{
+    height: 190px;
+    margin-bottom: 10px;
+    
+    background-size: cover;
+}
+
+.card h3
+{
+    padding: 1px;
+    font-size: 25px;
+    color:rgb(7, 6, 6);
+font-family:serif;
+
+}
+.card h2
+{
+ 
+    font-size: 20px;
+    color:rgb(104, 101, 101);
+font-family:serif;
+
+}
+
+.card p
+{
+   padding:8px;
+   margin-bottom: 5px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.card:hover
+{
+    color: white;
+box-shadow: 15px 15px 15px black;
+}
+.carousel-inner
+{
+  display: block;
+  
+}
+.typewriter
+ {
+        font-size:200%;
+        color: rgb(3, 75, 137);
+        /*border-right: 3px solid  rgb(70, 156, 83) ;*/
+        
+        white-space: nowrap;
+        overflow: hidden;
+        width: 0;
+        animation: typing 3.5s steps(40, end) forwards, blink 1s step-end infinite;
+ }
+
+/* Annimation */
+
+
+
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+      color:  rgb(3, 75, 137);
+    }
+    100%
+    {
+        border-color: transparent;
+        color: #db1e1e;
+    }
+  }
+  
+  .fade-in {
+    font-size:200%;
+        color: rgb(3, 75, 137);
+   
+   
+    animation: fadeInUp 2s ease;
+   
+     
+  }
+  
+  @keyframes fadeInUp {
+    from{
+       transform: translateY(-15px);
+        opacity: 0;
+    }
+    to {
+      
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+  }
+ .margin
+ {
+  margin-left: 500px;
+ }
